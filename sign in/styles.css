@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark gray text */
+}
+
+.container {
+  max-width: 800px;
+  background-color: #ffffff; /* White background for the container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar {
+  margin-bottom: 20px;
+  background-color: #ffffff; /* White background for the navbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-brand, .nav-link {
+  color: #333; /* Dark gray text for navbar links */
+}
+
+.nav-link:hover {
+  color: #ff0000; /* Red color on hover */
+}
+
+#captcha-text {
+  font-weight: bold;
+  color: #ff0000; /* Red color for CAPTCHA text */
+}
+
+.btn-primary {
+  background-color: #ff0000; /* Red background for the button */
+  border-color: #ff0000; /* Red border for the button */
+}
+
+.btn-primary:hover {
+  background-color: #cc0000; /* Darker red on hover */
+  border-color: #cc0000; /* Darker red border on hover */
+}
+
+h1, h2 {
+  color: #ff0000; /* Red color for headings */
+}
+
+p {
+  color: #333; /* Dark gray text for paragraphs */
+}
